@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "PP Telegraf";
+  src: url("/assets/font/pptelegraf-regular.otf");
+  font-weight: 400;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PP Telegraf";
+  src: url("/assets/font/pptelegraf-ultrabold.otf");
+  font-weight: 700;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PP Telegraf";
+  src: url("/assets/font/pptelegraf-ultralight.otf");
+  font-weight: 200;
+  font-weight: lighter;
+}
+body {
+  background: #fef7f6;
+}
+a{
+ text-decoration: none;
+}
+#loader{
+  background: url('./assets/logo.png') no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+#content{
+  display: none;
+}
+.logo {
+  width: 174.47px;
+  height: 35.06px;
+}
+.logo_modal{
+  width: 124.47px;
+  height: 20.06px;
+}
+.menu{
+width: 30px;
+height: 25px;
+}
+.nav_bg {
+  background-color: #fffafa;
+}
+
+.nav_list {
+  color: #441a62;
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 500;
+}
+.nav_list_modal{
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  list-style-type: none !important;
+  color: #000000;
+}
+.nav_btn {
+  background-color: #441a62;
+  color: #ffffff;
+  height: 50px;
+  width: 150px;
+}
+.nav_btn_modal {
+  background-color: #441a62;
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+}
+.site_modal{
+  border-radius: 8px!important;
+}
+.nav_btn:hover {
+  background-color: #441a62;
+  color: #ffffff;
+}
+.hero_header_text {
+  position: static;
+  width: 715px;
+  height: 267.66px;
+  left: 0px;
+  top: 0px;
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 88px;
+  color: #3a1460;
+}
+.hero_text {
+  position: static;
+  width: 610px;
+  height: 90px;
+  left: 0px;
+  top: 285.66px;
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #2e0d50;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 18px 0px;
+}
+.hero_image {
+  margin-right: -500%;
+  margin-top: -24%;
+  width: 650px;
+  height: 670px;
+}
+.hero_round_image {
+  width: 65.28px;
+  height: 65.18px;
+  left: 0px;
+  top: 0px;
+}
+.hero_learn_more_div {
+  margin-top: -5%;
+}
+.hero_learn_more {
+  position: static;
+  width: 125px;
+  height: 32px;
+  left: 0px;
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: #a232a8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.learn_more_arrow {
+  position: static;
+  width: 25px;
+  left: 137px;
+  margin: 0px 12px;
+}
+.hero_learn_more:hover {
+  color: #a232a8;
+  cursor: pointer;
+}
+.hero_social_icon {
+  width: 44px;
+  height: 44px;
+}
+
+@media (max-width: 769px) {
+  #loader{
+    background: url('./assets/logomark.png') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+  }
+  .hero_image {
+    width: 430px;
+    height: 459px;
+    left: 0px;
+    margin-top: 10px;
+    margin-left: -20%;
+    justify-self: start;
+  }
+  .hero_header_text {
+    position: static;
+    width: 335px;
+    height: 108px;
+    left: 0px;
+    top: 0px;
+    font-family: "PP Telegraf";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #3a1460;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 14px 0px;
+  }
+  .hero_text {
+    position: static;
+    width: 335px;
+    height: 96px;
+    left: 0px;
+    top: 122px;
+    font-family: "PP Telegraf";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2e0d50;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 14px 0px;
+  }
+  .hero_image_div{
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  .hero_image {
+    width: 850px;
+    height: 870px;
+  }
+
+  .hero_header_text {
+    position: static;
+    width: 715px;
+    height: 267.66px;
+    left: 0px;
+    top: 0px;
+    font-family: "PP Telegraf";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    color: #3a1460;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 0px;
+  }
+  .hero_text {
+    margin: -10% 0px;
+  }
+  .learn_more_div {
+    margin-top: 60px;
+  }
+  .learn_more_arrow {
+    position: static;
+    width: 25px;
+    left: 137px;
+  }
+}

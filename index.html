@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" />
+	<title>Smartsible Home Page</title>
+</head>
+
+<body class="bg">
+	<div  class="loading" id="loader"></div>
+	<div id="content">
+	<!--=========TOP NAV=========-->
+	<nav class="navbar navbar-expand-lg navbar-light nav_bg mt-1">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="./assets/logo.png" class="logo"></img></a>
+			<img class="menu d-lg-none d-md-block d-sm-block" src="./assets/menu.png" data-bs-toggle="modal"
+				data-bs-target="#exampleModal" />
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				</ul>
+				<span class="d-flex">
+					<ul class="navbar-nav">
+						<li class="nav-item nav_list m-4">
+							<a class="nav-link " href="#">Abou Us</a>
+						</li>
+						<li class="nav-item nav_list m-4">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item nav_list m-4">
+							<a class="nav-link" href="#">FAQ</a>
+						</li>
+						<li class="nav-item nav_list m-4">
+							<a class="nav-link" href="#">Policy</a>
+						</li>
+					</ul>
+				</span>
+				<span class="d-flex">
+					<button class="btn nav_btn" type="submit">Contact Us</button>
+				</span>
+			</div>
+		</div>
+	</nav>
+	</nav>
+	<!--=========TOP NAV=========-->
+
+	<!--=========Hero section=========-->
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+				<h3 class="hero_header_text d-none d-md-none d-lg-block">A whole new <img class="hero_round_image"
+						src="./assets/Group.png" />
+					<br />
+					smarter experience coming your way
+				</h3>
+				<h3 class="hero_header_text d-lg-none d-md-block d-sm-block">A whole new
+					smarter experience coming your way
+				</h3>
+				<p class="hero_text">We are adopting cutting-edge strategies into building sustainable products in an
+					IOT-enabled environment that drives new and smarter experiences. </p>
+				<div class="learn_more_div"></div>
+				<a class="hero_learn_more"> Learn more <img class="learn_more_arrow" src="./assets/arrow.png" /></a>
+
+				<div class="mt-5 d-none d-md-none d-lg-block">
+					<img class="hero_social_icon" src="./assets/ig.png" />
+					<img class="hero_social_icon" src="./assets/in.png" />
+					<img class="hero_social_icon" src="./assets/medi.png" />
+				</div>
+
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 ">
+				<div class="hero_image_div">
+					<img class="hero_image" src="./assets/hero.png" />
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--=========Hero section=========-->
+
+	<!--=========Modal=========-->
+	<sction>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content site_modal">
+					<div class="modal-header border-0 ">
+						<a class="navbar-brand" href="#">
+							<img src="./assets/logo.png" class="logo_modal"></img>
+						</a>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<ul class="navbar-nav">
+							<li class="nav-item nav_list_modal m-2">
+								<a class="nav_list_modal" href="#">Abou Us</a>
+							</li>
+							<li class="nav-item nav_list_modal  m-2">
+								<a class="nav_list_modal" href="#">Blog</a>
+							</li>
+							<li class="nav-item nav_list_modal  m-2">
+								<a class="nav_list_modal " href="#">FAQ</a>
+							</li>
+							<li class="nav-item nav_list_modal  m-2">
+								<a class="nav_list_modal" href="#">Policy</a>
+							</li>
+						</ul>
+						<div class="mt-3 mb-3">
+							<img class="hero_social_icon m-2" src="./assets/ig.png" />
+							<img class="hero_social_icon m-2" src="./assets/in.png" />
+							<img class="hero_social_icon m-2" src="./assets/medi.png" />
+						</div>
+						<div class="text-center">
+							<button class="btn nav_btn_modal btn-block btn-block" type="submit">Contact Us</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</sction>
+	<!--=========Modal=========-->
+</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+		</script>
+		<script src="./anime-master/lib/anime.min.js"></script>
+		<script src="./index.js"></script>
+</body>
+
+</html>
