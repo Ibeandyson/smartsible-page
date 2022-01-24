@@ -149,6 +149,12 @@ height: 25px;
   left: 137px;
   margin: 0px 12px;
 }
+.learn_more_arrow:hover {
+  position: static;
+  width: 25px;
+  left: 137px;
+  margin: 0px 12px;
+}
 .hero_learn_more:hover {
   color: #a232a8;
   cursor: pointer;

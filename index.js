@@ -19,14 +19,25 @@ anime({
 });
 
 // func for animating learn more
-let learnMore = document.querySelector(".learn_more_arrow");
-anime({
-  targets: learnMore,
-  translateX: 30,
-  direction: "alternate",
-  loop: true,
-  easing: "linear",
-});
+let images = document.querySelector('.hero_learn_more');
+images.addEventListener('mouseover', changeDefOver);
+images.addEventListener('mouseout', changeDefOut);
+
+let arrow = document.querySelector('.learn_more_arrow');
+function changeDefOver() {
+  anime({
+    targets: arrow,
+    translateX: 30,
+  })
+}
+
+function changeDefOut() {
+  anime({
+    targets: arrow,
+    translateX: 0,
+  })
+}
+
 
 // func for animating loading
 let loading = document.querySelector(".loading");
