@@ -35,8 +35,8 @@ a{
   display: none;
 }
 .logo {
-  width: 174.47px;
-  height: 35.06px;
+  width: 174px;
+  height: 30.06px;
 }
 .logo_modal{
   width: 124.47px;
@@ -68,6 +68,7 @@ height: 25px;
   color: #ffffff;
   height: 50px;
   width: 150px;
+  margin-left: 40px;
 }
 .nav_btn_modal {
   background-color: #441a62;
@@ -222,36 +223,36 @@ height: 25px;
 
 @media screen and (min-width: 1501px) {
   .hero_image {
-    width: 850px;
-    height: 870px;
+    width: 950px;
+      margin-top: -40%;
+    margin-right: -800%;
   }
 
   .hero_header_text {
     position: static;
     width: 715px;
-    height: 267.66px;
     left: 0px;
     top: 0px;
     font-family: "PP Telegraf";
     font-style: normal;
     font-weight: 800;
-    font-size: 72px;
+    font-size: 73px;
     line-height: 88px;
     color: #3a1460;
     flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 80px 0px;
+    margin-top: 200px;
   }
   .hero_text {
-    margin: -10% 0px;
+    margin: 5% 0px;
   }
   .learn_more_div {
-    margin-top: 60px;
+    margin-top: 0%;
+
   }
   .learn_more_arrow {
     position: static;
     width: 25px;
     left: 137px;
   }
+
 }
