@@ -8,15 +8,7 @@ anime({
   easing: "steps(3)",
 });
 
-// func for animating hero image
-let heroImage = document.querySelector(".hero_image");
-anime({
-  targets: heroImage,
-  translateY: 10,
-  direction: "alternate",
-  loop: true,
-  easing: "linear",
-});
+
 
 // func for animating learn more
 let images = document.querySelector('.hero_learn_more');

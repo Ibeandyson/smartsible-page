@@ -99,7 +99,7 @@ height: 25px;
 .hero_text {
   position: static;
   width: 610px;
-  height: 90px;
+  height: 50px;
   left: 0px;
   top: 285.66px;
   font-family: "PP Telegraf";
@@ -125,7 +125,7 @@ height: 25px;
   top: 0px;
 }
 .hero_learn_more_div {
-  margin-top: -5%;
+  margin-top: -50%;
 }
 .hero_learn_more {
   position: static;
@@ -142,12 +142,10 @@ height: 25px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 12px;
 }
 .learn_more_arrow {
   position: static;
   width: 25px;
-  left: 137px;
   margin: 0px 12px;
 }
 .learn_more_arrow:hover {
